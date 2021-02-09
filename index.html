@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Instagram</title>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity=          "sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
+</head>
+<body>
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel"></h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        ...
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+	<div class="container" style="margin-top: 20px">
+        <div class="row justify-content-center">
+             <div class="col-md-8"><i class="fab fa-instagram" style="font-size: 25px"></i>Instagram</div>
+             <div class="col-md-2"><button type="button" class="btn btn-primary" data-toggle="modal" data-target=" 
+                                    #exampleModal">Create a new post</button></div>
+             <div class="col-md-2"><div class="nav-item dropdown">
+                                     <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false"><i class="fas fa-cog"></i></a>
+                                     <div class="dropdown-menu">
+                                         <a class="dropdown-item" href="#">Action</a>
+                                         <a class="dropdown-item" href="#">Another action</a>
+                                         <a class="dropdown-item" href="#">Something else here</a>
+                                         <div class="dropdown-divider"></div>
+                                         <a class="dropdown-item" href="#">Separated link</a>
+                                     </div>
+                                  </div>
+             </div>
+         </div>
+    </div>
+<!-- AQUI TERMINA LA BARRA INICIAL-->
+
+<ul class="nav nav-pills mb-3 nav justify-content-center" style="margin-bottom: 20px" id="pills-tab" role="tablist">
+  <li class="nav-item">
+    <a class="nav-link active" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true">
+    	<i class="fas fa-th" style="float: right;"></i>
+    </a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" id="pills-photofeed-tab" data-toggle="pill" href="#pills-photofeed" role="tab" aria-controls="pills-photofeed" aria-selected="false">
+    	<i class="fas fa-square" style="float: left;"></i>
+    </a>
+  </li>
+</ul>
+
+<div class="tab-content" id="pills-tabContent">
+  <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+  	    <div class="container"> <!--Vista Cuadricula-->
+          <div class="row">
+               <div class="col-4"><img src="https://kaikucaffelatte.com/blog/wp-content/uploads/2020/03/shutterstock_510679489-scaled.jpg" class="card-img-top" alt="..."></div>
+               <div class="col-4"><img src="https://www.blogdelfotografo.com/wp-content/uploads/2020/04/fotografo-paisajes.jpg" class="card-img-top" alt="..."></div>
+               <div class="col-4"><img src="https://mott.pe/noticias/wp-content/uploads/2019/03/los-50-paisajes-maravillosos-del-mundo-para-tomar-fotos-1280x720.jpg" class="card-img-top" alt="..."></div>
+               <div class="w-100"></div>
+               <div class="col-4"><img src="https://st.depositphotos.com/1033604/2078/i/600/depositphotos_20788789-stock-photo-gourgeous-cherry-trees-in-full.jpg" class="card-img-top" alt="..."></div>
+               <div class="col-4"><img src="https://img.ecologiahoy.com/2017/06/paisajes-naturales-26-1024x640.jpeg" class="card-img-top" alt="..."></div>
+               <div class="col-4"><img src="https://www.hola.com/imagenes/viajes/20180530124901/naturaleza-destinos-mundo-a-todo-color/0-571-947/colores-m.jpg" class="card-img-top" alt="..."></div>
+               <div class="w-100"></div>
+               <div class="col-4"><img src="https://ep01.epimg.net/elviajero/imagenes/2019/12/26/album/1577373491_619507_1585078290_noticia_normal.jpg" class="card-img-top" alt="..."></div>
+               <div class="col-4"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQoqdYUb9YoHRaogOZcwRXoiWy7fYqSPmtpKw&usqp=CAU" class="card-img-top" alt="...."></div>
+               <div class="col-4"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_9f1v-wzTQf95jhY6f9TWj3Fbm18L213oug&usqp=CAU" class="card-img-top" alt="..."></div>
+          </div>
+     </div>
+  </div>
+  <div class="tab-pane fade" id="pills-photofeed" role="tabpanel" aria-labelledby="pills-photofeed-tab">
+  	    <div class="row justify-content-center"> <!--Vista photofeed-->
+         <div class="col-5">
+             <div class="card">
+             	 <h5 class="card-title">My First Photo</h5>
+                 <img src="https://kaikucaffelatte.com/blog/wp-content/uploads/2020/03/shutterstock_510679489-scaled.jpg" class="card-img-top" alt="...">
+                 <div class="card-body">
+                 	 <p class="card-text">10 Likes</p>
+                     <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                     <p class="card-text"><small class="text-muted"><i class="far fa-heart"></i> Comment...</small></p>
+                 </div>
+             </div>
+         </div>
+         <div class="w-100"></div>
+         <div class="col-5">
+           <div class="card">
+             	 <h5 class="card-title">My First Photo</h5>
+                 <img src="https://www.blogdelfotografo.com/wp-content/uploads/2020/04/fotografo-paisajes.jpg" class="card-img-top" alt="...">
+                 <div class="card-body">
+                 	 <p class="card-text">10 Likes</p>
+                     <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                     <p class="card-text"><small class="text-muted"><i class="far fa-heart"></i> Comment...</small></p>
+                 </div>
+             </div>
+         </div>
+         <div class="w-100"></div>
+         <div class="col-5">
+           <div class="card">
+             	 <h5 class="card-title">My First Photo</h5>
+                 <img src="https://mott.pe/noticias/wp-content/uploads/2019/03/los-50-paisajes-maravillosos-del-mundo-para-tomar-fotos-1280x720.jpg" alt="...">
+                 <div class="card-body">
+                 	 <p class="card-text">10 Likes</p>
+                     <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                     <p class="card-text"><small class="text-muted"><i class="far fa-heart"></i> Comment...</small></p>
+                 </div>
+             </div>
+         </div>
+         <div class="w-100"></div>
+         <div class="col-5">
+           <div class="card">
+             	 <h5 class="card-title">My First Photo</h5>
+                 <img src="https://st.depositphotos.com/1033604/2078/i/600/depositphotos_20788789-stock-photo-gourgeous-cherry-trees-in-full.jpg" alt="...">
+                 <div class="card-body">
+                 	 <p class="card-text">10 Likes</p>
+                     <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                     <p class="card-text"><small class="text-muted"><i class="far fa-heart"></i> Comment...</small></p>
+                 </div>
+             </div>
+         </div>
+         
+     </div>
+  </div>
+</div>
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>
